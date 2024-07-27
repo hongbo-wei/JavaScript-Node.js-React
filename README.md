@@ -1,20 +1,27 @@
-# react
+# JavaScript and React
 
 Create projects with React
 
-## Commands for React
+## Run apps (Commands for React)
+1. JavaScript with React `cd firstapp`
 
-Use _Vite_ to create a project with _React_ framework and _TypeScript_ variant
+    ```
+    npm start
+    ```
 
-```
-npm create vite@latest
-```
+2. JavaScript and TypeScript with React `cd react-app-with-typescript`
+    
+    Use _Vite_ to create a project with _React_ framework and _TypeScript_ variant
 
-Then install all thrid part dependencies
-`npm install`
+    ```
+    npm create vite@latest
+    ```
 
-Run server
+    Then install all thrid part dependencies
+    `npm install`
 
-```
-npm run dev
-```
+    Run server
+
+    ```
+    npm run dev
+    ```
