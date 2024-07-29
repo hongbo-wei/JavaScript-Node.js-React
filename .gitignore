@@ -1,0 +1,4 @@
+# see https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependency directories
+fist-app/node_modules/
