@@ -1,6 +1,4 @@
 # see https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # Dependency directories
-first-app/node_modules/
-react-app-with-typescript/node_modules/
-react-app-with-typescript/venv/
+node_modules/
