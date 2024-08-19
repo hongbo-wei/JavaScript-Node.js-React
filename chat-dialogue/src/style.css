@@ -1,0 +1,76 @@
+/* style.css */
+
+.chat-window {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+
+.messages-container {
+  flex: 1;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.message-bubble {
+  margin: 10px 0;
+  display: flex;
+}
+
+.user-bubble {
+  justify-content: flex-end;
+}
+
+.bot-bubble {
+  justify-content: flex-start;
+}
+
+.bubble-content {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 60%;
+  white-space: pre-wrap; /* Preserves line breaks in the message */
+}
+
+.user-bubble .bubble-content {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.bot-bubble .bubble-content {
+  background-color: #e5e5ea;
+  color: #000;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.message-input textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none; /* Prevents manual resizing of the textarea */
+}
+
+.message-input button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.message-input button:hover {
+  background-color: #0056b3;
+}
