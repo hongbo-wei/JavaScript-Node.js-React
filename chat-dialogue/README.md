@@ -72,21 +72,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 #### Best Practice for React Folder Structure
 ```
-/project-root
-|-- /public
-|-- /src
-|   |-- /assets
-|   |   |-- /images
-|   |   |-- /styles
-|   |-- /components
-|   |-- /pages
-|   |-- /hooks
-|   |-- /context
-|   |-- /services
-|   |-- /utils
-|   |-- App.js
-|   |-- index.js
-|-- .gitignore
-|-- package.json
-|-- README.md
+project-root/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── Button.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── Contact.js
+|   |-- pages/
+|   |-- hooks/
+|   |-- context/
+|   |-- services/
+|   |-- utils/
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   ├── index.css
+│   └── serviceWorker.js
+├── package.json
+├── .gitignore
+├── README.md
+└── package-lock.json
 ```
